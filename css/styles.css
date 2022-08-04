@@ -1,11 +1,11 @@
+/*****************************Tag Selectors*********************/
 body {
-    background-color:#eecacb;
+    background-color:#90fbcb;
 }
 
 hr {
     background-color:#D75281;
     border-style: none;
-    height: 4px;
 }
 
 h1 {
@@ -14,4 +14,30 @@ h1 {
 
 h3 {
     color: #D75281;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/*****************************Class Selectors*******************/
+.short {
+    width: 600px;
+    height: 4px;
+}
+
+.thin {
+    height: 2px;
+}
+
+.icon {
+    background-color:#D75281;
+}
+
+.circular {
+    border-radius: 100%;
+}
+/*****************************ID Selectors*******************/
+#newheadline {
+    color: rgb(8, 137, 42);
 }
